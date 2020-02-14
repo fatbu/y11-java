@@ -22,7 +22,7 @@ class Glass
     numJars++;
   }
 
-//2.Create an nitialization constructor that initializes the value of instance variables volume and color
+//2.Create an initialization constructor that initializes the value of instance variables volume and color
   public Glass (String col, int vol){
     color = col;
     volume = vol;
