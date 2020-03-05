@@ -22,10 +22,9 @@ class PuzzleSolver
   //Puzzle 2
   public int countVowels(String str)
   {
-    String v="aeiouAEIOU";
     int t=0;
     for(int i=0;++i<str.length();){
-      t+=v.contains(""+str.charAt(i))?1:0;
+      t+="aeiouAEIOU".contains(""+str.charAt(i))?1:0;
     }
     return t;
   }
